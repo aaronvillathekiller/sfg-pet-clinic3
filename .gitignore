@@ -17,7 +17,7 @@ npm-debug.log.*
 ######################
 # SASS
 ######################
-.sass-cache/
+.sass-cache/git
 
 ######################
 # Eclipse
