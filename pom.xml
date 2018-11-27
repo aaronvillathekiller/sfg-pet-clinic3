@@ -48,7 +48,7 @@
     <scm>
         <developerConnection>scm:git:git@github.com:aaronvillathekiller/sfg-pet-clinic3.git</developerConnection>
 
-        <tag>sfg-pet-clinic-0.0.1</tag>
+        <tag>sfg-pet-clinic-0.0.2</tag>
   </scm>
 
 </project>
