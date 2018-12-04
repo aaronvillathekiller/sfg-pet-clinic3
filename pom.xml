@@ -46,11 +46,10 @@
     </build>
 
     <scm>
+
         <developerConnection>scm:git:git@github.com:aaronvillathekiller/sfg-pet-clinic3.git</developerConnection>
 
-        <tag>sfg-pet-clinic-0.1.6</tag>
-
-
-  </scm>
+        <tag>sfg-pet-clinic-0.2.7</tag>
+    </scm>
 
 </project>
