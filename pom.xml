@@ -40,6 +40,7 @@
                 <artifactId>maven-release-plugin</artifactId>
                 <configuration>
                     <goals>install</goals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                 </configuration>
             </plugin>
         </plugins>
@@ -49,7 +50,7 @@
 
         <developerConnection>scm:git:git@github.com:aaronvillathekiller/sfg-pet-clinic3.git</developerConnection>
 
-        <tag>sfg-pet-clinic-0.2.7</tag>
+        <tag>HEAD</tag>
     </scm>
 
 </project>
