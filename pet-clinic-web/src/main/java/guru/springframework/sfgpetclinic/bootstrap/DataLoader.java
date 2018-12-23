@@ -15,6 +15,7 @@ public class DataLoader implements CommandLineRunner {
 
 
     public DataLoader(OwnerService ownerService, VetService vetService) {
+        System.out.println("Data Loader Constructor");
         this.ownerService = ownerService;
         this.vetService = vetService;
     }
@@ -23,6 +24,7 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
+        System.out.println("Data Loader Run Method");
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
