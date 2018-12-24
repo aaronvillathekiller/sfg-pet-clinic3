@@ -11,4 +11,9 @@ public class IndexController {
         System.out.println("index controller");
         return "index";
     }
+
+    @RequestMapping("/oups")
+    public String findOwners() {
+        return "notImplemented";
+    }
 }
