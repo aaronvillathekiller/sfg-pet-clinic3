@@ -27,8 +27,6 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
             throw new RuntimeException("Object cannot be null");
         }
 
-
-
         return object;
     }
 
@@ -41,7 +39,6 @@ public abstract class AbstractMapService<T extends BaseEntity, ID extends Long> 
     }
 
     private Long getNextId() {
-
 
         Long nextId = null;
 
